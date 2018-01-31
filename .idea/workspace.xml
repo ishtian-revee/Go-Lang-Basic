@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b3cdbea-4221-4b47-a931-230e6ef2bde3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Structs.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/BasicWebApp.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/BasicWebHandler.go" afterPath="$PROJECT_DIR$/BasicWebHandler.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,13 +50,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Structs.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Structs.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Structs.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+            <state relative-caret-position="273">
+              <caret line="69" column="28" lean-forward="true" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
               <folding>
                 <element signature="e#14#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicWebApp.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BasicWebApp.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="904">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#71#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,6 +94,7 @@
         <option value="$PROJECT_DIR$/Variables.go" />
         <option value="$PROJECT_DIR$/Structs.go" />
         <option value="$PROJECT_DIR$/BasicWebHandler.go" />
+        <option value="$PROJECT_DIR$/BasicWebApp.go" />
       </list>
     </option>
   </component>
@@ -146,7 +158,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build BasicWebHandler.go">
+  <component name="RunManager" selected="Go Build.go build BasicWebApp.go">
+    <configuration name="go build BasicWebApp.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="Go Basic" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/BasicWebApp.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
     <configuration name="go build BasicWebHandler.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="Go Basic" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -179,18 +199,20 @@
       <filePath value="$PROJECT_DIR$/Variables.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Go Build.go build RandomNumber.go" />
       <item index="1" class="java.lang.String" itemvalue="Go Build.go build Variables.go" />
       <item index="2" class="java.lang.String" itemvalue="Go Build.go build BasicWebHandler.go" />
       <item index="3" class="java.lang.String" itemvalue="Go Build.go build Structs.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Build.go build BasicWebApp.go" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build BasicWebHandler.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build Structs.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Build.go build Variables.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Build.go build RandomNumber.go" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build BasicWebApp.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build BasicWebHandler.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build Structs.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Build.go build Variables.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Build.go build RandomNumber.go" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +228,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32987013" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32987013" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -293,10 +315,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Structs.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        <state relative-caret-position="273">
+          <caret line="69" column="28" lean-forward="true" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
           <folding>
             <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicWebApp.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="904">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
